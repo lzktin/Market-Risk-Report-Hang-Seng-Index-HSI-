@@ -27,7 +27,7 @@ jobs:
 
       - name: commit changes
         run: |
-          git mv report.md README.md
+          mv report.md README.md
           git add README.md
           git add report_files/*
           git commit -m "Daily automated notebook update: $(date +'%Y-%m-%d')" 

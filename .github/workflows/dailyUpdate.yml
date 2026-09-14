@@ -18,8 +18,8 @@ jobs:
           python-version: '3.14'
           cache: 'pip'
 
-      # - name: install dependencies
-      #   run: python -m pip install --upgrade pip -r requirements.txt
+      - name: install dependencies
+        run: python -m pip install --upgrade pip -r requirements.txt
 
       - name: update notebook and turn to markdown
         run: |

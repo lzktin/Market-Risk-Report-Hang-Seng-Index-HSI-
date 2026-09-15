@@ -1,6 +1,10 @@
 name: Daily update
 
 on:
+  push:
+      branches:
+        - main
+        - feature
   schedule:
     - cron: '0 0 * * *'
       timezone: "Asia/Hong_Kong"

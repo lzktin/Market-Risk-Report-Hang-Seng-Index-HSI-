@@ -3,6 +3,7 @@ name: Daily update
 on:
   schedule:
     - cron: '0 0 * * *'
+      timezone: "Asia/Hong Kong"
   workflow_dispatch: 
 
 permissions: 

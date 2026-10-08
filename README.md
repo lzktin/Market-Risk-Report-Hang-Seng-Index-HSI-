@@ -33,12 +33,12 @@ df, returns
      2016-01-07    20333.339844
      2016-01-08    20453.710938
                        ...     
-     2026-09-29    24523.570312
-     2026-09-30    24613.269531
      2026-10-02    23972.289062
      2026-10-05    24040.339844
      2026-10-06    24280.560547
-     Name: ^HSI, Length: 2646, dtype: float64,
+     2026-10-07    24130.500000
+     2026-10-08    24095.429688
+     Name: ^HSI, Length: 2648, dtype: float64,
      Date
      2016-01-05   -0.006489
      2016-01-06   -0.009812
@@ -46,12 +46,12 @@ df, returns
      2016-01-08    0.005920
      2016-01-11   -0.027634
                      ...   
-     2026-09-29   -0.004827
-     2026-09-30    0.003658
      2026-10-02   -0.026042
      2026-10-05    0.002839
      2026-10-06    0.009992
-     Name: ^HSI, Length: 2645, dtype: float64)
+     2026-10-07   -0.006180
+     2026-10-08   -0.001453
+     Name: ^HSI, Length: 2647, dtype: float64)
 
 
 
@@ -100,11 +100,11 @@ summary
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000144</td>
-      <td>0.013752</td>
+      <td>0.000141</td>
+      <td>0.013748</td>
       <td>-0.132233</td>
       <td>0.090818</td>
-      <td>2645</td>
+      <td>2647</td>
     </tr>
   </tbody>
 </table>
@@ -176,13 +176,13 @@ pd.DataFrame({
       <th>0</th>
       <td>Historical</td>
       <td>0.95</td>
-      <td>-0.021027</td>
+      <td>-0.021019</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Historical</td>
       <td>0.99</td>
-      <td>-0.034012</td>
+      <td>-0.034007</td>
     </tr>
   </tbody>
 </table>
@@ -238,13 +238,13 @@ pd.DataFrame({
       <th>0</th>
       <td>Parametric (Normal)</td>
       <td>0.95</td>
-      <td>-0.022477</td>
+      <td>-0.022472</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Parametric (Normal)</td>
       <td>0.99</td>
-      <td>-0.031849</td>
+      <td>-0.031841</td>
     </tr>
   </tbody>
 </table>
@@ -289,13 +289,13 @@ compare_var
   <tbody>
     <tr>
       <th>0</th>
-      <td>-0.021027</td>
-      <td>-0.022477</td>
+      <td>-0.021019</td>
+      <td>-0.022472</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-0.034012</td>
-      <td>-0.031849</td>
+      <td>-0.034007</td>
+      <td>-0.031841</td>
     </tr>
   </tbody>
 </table>
@@ -355,11 +355,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Historical 95% (constant)</td>
-      <td>-0.021027</td>
-      <td>0.050284</td>
+      <td>-0.021019</td>
+      <td>0.050246</td>
       <td>0.05</td>
       <td>133</td>
-      <td>2645</td>
+      <td>2647</td>
     </tr>
   </tbody>
 </table>
@@ -417,11 +417,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Historical 99% (constant)</td>
-      <td>-0.034012</td>
-      <td>0.010208</td>
+      <td>-0.034007</td>
+      <td>0.0102</td>
       <td>0.01</td>
       <td>27</td>
-      <td>2645</td>
+      <td>2647</td>
     </tr>
   </tbody>
 </table>
@@ -479,11 +479,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Parametric 95% (constant)</td>
-      <td>-0.022477</td>
-      <td>0.038185</td>
+      <td>-0.022472</td>
+      <td>0.038156</td>
       <td>0.05</td>
       <td>101</td>
-      <td>2645</td>
+      <td>2647</td>
     </tr>
   </tbody>
 </table>
@@ -541,11 +541,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Parametric 99% (constant)</td>
-      <td>-0.031849</td>
-      <td>0.012476</td>
+      <td>-0.031841</td>
+      <td>0.012467</td>
       <td>0.01</td>
       <td>33</td>
-      <td>2645</td>
+      <td>2647</td>
     </tr>
   </tbody>
 </table>
@@ -603,7 +603,7 @@ tail_stats
     <tr>
       <th>0</th>
       <td>0.01</td>
-      <td>-0.034012</td>
+      <td>-0.034007</td>
       <td>-0.04744</td>
       <td>-0.132233</td>
       <td>27</td>
@@ -917,12 +917,12 @@ report
     <tr>
       <th>0</th>
       <td>Historical VaR 95%</td>
-      <td>-21027.081326</td>
+      <td>-21019.309327</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Parametric VaR 95% (Assuming Normal)</td>
-      <td>-22476.981349</td>
+      <td>-22472.384580</td>
     </tr>
     <tr>
       <th>2</th>

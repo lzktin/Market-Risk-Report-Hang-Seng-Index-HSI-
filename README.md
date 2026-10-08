@@ -37,7 +37,7 @@ df, returns
      2026-10-05    24040.339844
      2026-10-06    24280.560547
      2026-10-07    24130.500000
-     2026-10-08    24095.429688
+     2026-10-08    23785.789062
      Name: ^HSI, Length: 2648, dtype: float64,
      Date
      2016-01-05   -0.006489
@@ -50,7 +50,7 @@ df, returns
      2026-10-05    0.002839
      2026-10-06    0.009992
      2026-10-07   -0.006180
-     2026-10-08   -0.001453
+     2026-10-08   -0.014285
      Name: ^HSI, Length: 2647, dtype: float64)
 
 
@@ -100,8 +100,8 @@ summary
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000141</td>
-      <td>0.013748</td>
+      <td>0.000136</td>
+      <td>0.013751</td>
       <td>-0.132233</td>
       <td>0.090818</td>
       <td>2647</td>
@@ -238,13 +238,13 @@ pd.DataFrame({
       <th>0</th>
       <td>Parametric (Normal)</td>
       <td>0.95</td>
-      <td>-0.022472</td>
+      <td>-0.022482</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Parametric (Normal)</td>
       <td>0.99</td>
-      <td>-0.031841</td>
+      <td>-0.031853</td>
     </tr>
   </tbody>
 </table>
@@ -290,12 +290,12 @@ compare_var
     <tr>
       <th>0</th>
       <td>-0.021019</td>
-      <td>-0.022472</td>
+      <td>-0.022482</td>
     </tr>
     <tr>
       <th>1</th>
       <td>-0.034007</td>
-      <td>-0.031841</td>
+      <td>-0.031853</td>
     </tr>
   </tbody>
 </table>
@@ -479,7 +479,7 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Parametric 95% (constant)</td>
-      <td>-0.022472</td>
+      <td>-0.022482</td>
       <td>0.038156</td>
       <td>0.05</td>
       <td>101</td>
@@ -541,7 +541,7 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Parametric 99% (constant)</td>
-      <td>-0.031841</td>
+      <td>-0.031853</td>
       <td>0.012467</td>
       <td>0.01</td>
       <td>33</td>
@@ -922,7 +922,7 @@ report
     <tr>
       <th>1</th>
       <td>Parametric VaR 95% (Assuming Normal)</td>
-      <td>-22472.384580</td>
+      <td>-22481.878073</td>
     </tr>
     <tr>
       <th>2</th>

@@ -33,12 +33,12 @@ df, returns
      2016-01-07    20333.339844
      2016-01-08    20453.710938
                        ...     
-     2026-11-09    24448.949219
      2026-11-10    24557.039062
      2026-11-11    24315.919922
      2026-11-12    24008.550781
      2026-11-13    23637.599609
-     Name: ^HSI, Length: 2673, dtype: float64,
+     2026-11-16    23753.839844
+     Name: ^HSI, Length: 2674, dtype: float64,
      Date
      2016-01-05   -0.006489
      2016-01-06   -0.009812
@@ -46,12 +46,12 @@ df, returns
      2016-01-08    0.005920
      2016-01-11   -0.027634
                      ...   
-     2026-11-09   -0.001344
      2026-11-10    0.004421
      2026-11-11   -0.009819
      2026-11-12   -0.012641
      2026-11-13   -0.015451
-     Name: ^HSI, Length: 2672, dtype: float64)
+     2026-11-16    0.004918
+     Name: ^HSI, Length: 2673, dtype: float64)
 
 
 
@@ -100,11 +100,11 @@ summary
   <tbody>
     <tr>
       <th>0</th>
-      <td>0.000133</td>
-      <td>0.013746</td>
+      <td>0.000135</td>
+      <td>0.013744</td>
       <td>-0.132233</td>
       <td>0.090818</td>
-      <td>2672</td>
+      <td>2673</td>
     </tr>
   </tbody>
 </table>
@@ -176,13 +176,13 @@ pd.DataFrame({
       <th>0</th>
       <td>Historical</td>
       <td>0.95</td>
-      <td>-0.021000</td>
+      <td>-0.020996</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Historical</td>
       <td>0.99</td>
-      <td>-0.033944</td>
+      <td>-0.033941</td>
     </tr>
   </tbody>
 </table>
@@ -238,13 +238,13 @@ pd.DataFrame({
       <th>0</th>
       <td>Parametric (Normal)</td>
       <td>0.95</td>
-      <td>-0.022477</td>
+      <td>-0.022471</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Parametric (Normal)</td>
       <td>0.99</td>
-      <td>-0.031845</td>
+      <td>-0.031838</td>
     </tr>
   </tbody>
 </table>
@@ -289,13 +289,13 @@ compare_var
   <tbody>
     <tr>
       <th>0</th>
-      <td>-0.021000</td>
-      <td>-0.022477</td>
+      <td>-0.020996</td>
+      <td>-0.022471</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>-0.033944</td>
-      <td>-0.031845</td>
+      <td>-0.033941</td>
+      <td>-0.031838</td>
     </tr>
   </tbody>
 </table>
@@ -355,11 +355,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Historical 95% (constant)</td>
-      <td>-0.021</td>
-      <td>0.05015</td>
+      <td>-0.020996</td>
+      <td>0.050131</td>
       <td>0.05</td>
       <td>134</td>
-      <td>2672</td>
+      <td>2673</td>
     </tr>
   </tbody>
 </table>
@@ -417,11 +417,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Historical 99% (constant)</td>
-      <td>-0.033944</td>
-      <td>0.010105</td>
+      <td>-0.033941</td>
+      <td>0.010101</td>
       <td>0.01</td>
       <td>27</td>
-      <td>2672</td>
+      <td>2673</td>
     </tr>
   </tbody>
 </table>
@@ -479,11 +479,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Parametric 95% (constant)</td>
-      <td>-0.022477</td>
-      <td>0.038174</td>
+      <td>-0.022471</td>
+      <td>0.038159</td>
       <td>0.05</td>
       <td>102</td>
-      <td>2672</td>
+      <td>2673</td>
     </tr>
   </tbody>
 </table>
@@ -541,11 +541,11 @@ pd.DataFrame({
     <tr>
       <th>0</th>
       <td>Parametric 99% (constant)</td>
-      <td>-0.031845</td>
-      <td>0.01235</td>
+      <td>-0.031838</td>
+      <td>0.012346</td>
       <td>0.01</td>
       <td>33</td>
-      <td>2672</td>
+      <td>2673</td>
     </tr>
   </tbody>
 </table>
@@ -603,7 +603,7 @@ tail_stats
     <tr>
       <th>0</th>
       <td>0.01</td>
-      <td>-0.033944</td>
+      <td>-0.033941</td>
       <td>-0.04744</td>
       <td>-0.132233</td>
       <td>27</td>
@@ -917,12 +917,12 @@ report
     <tr>
       <th>0</th>
       <td>Historical VaR 95%</td>
-      <td>-20999.879329</td>
+      <td>-20995.993330</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Parametric VaR 95% (Assuming Normal)</td>
-      <td>-22476.972801</td>
+      <td>-22471.464014</td>
     </tr>
     <tr>
       <th>2</th>
